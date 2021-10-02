@@ -1,0 +1,35 @@
+<h2>Please Place your Oder</h2>
+<br/>
+<br /><br />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of ml">
+            <td>{{ i.id }}</td>
+            <td>{{ i.name }}</td>
+            <td>{{i.price}}</td>
+        </tr>
+        <tr>
+            <div class="mb-3">
+                <input type="text" class="form-control" name="name" [(ngModel)]="an.quantitys" placeholder="additem Name" />
+            </div>
+            <button type="submit" class="btn btn-danger" (click)="additems()">Submit</button> 
+            <td><strong>Amount to be Paid </strong></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <!-- <tr *ngFor="let item of menuList">
+            <div class="cart-item"><span>{{item.name}}</span>*
+                <span><input type="number" ng-model="num1" ng-init="num1=0" /></span>:
+            <span>{{item.price*num1}}</span></div>     
+        </tr> -->
+    </tbody>
+</table>

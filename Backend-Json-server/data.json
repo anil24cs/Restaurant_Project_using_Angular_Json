@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 100,
+      "name": "Anil",
+      "password": "Anil"
+    },
+    {
+      "id": 101,
+      "name": "Karthik",
+      "password": "Karthik"
+    },
+    {
+      "name": "Swapnil",
+      "password": "StrongPassword",
+      "id": 102
+    },
+    {
+      "name": "Rohit",
+      "password": "Cricket",
+      "id": 103
+    },
+    {
+      "name": "MS Dhoni",
+      "password": "CSK",
+      "id": 104
+    },
+    {
+      "name": "Manoj",
+      "password": "Manoj@123",
+      "id": 105
+    }
+  ],
+  "additem": [
+    {
+      "name": "Masala Dosa",
+      "price": "40",
+      "id": 1
+    },
+    {
+      "name": "poori",
+      "price": "35",
+      "id": 2
+    },
+    {
+      "name": "Idli Vada",
+      "price": "40",
+      "id": 3
+    },
+    {
+      "name": "Pancakes",
+      "price": "55",
+      "id": 4
+    },
+    {
+      "name": "Kiwi Salm",
+      "price": "45",
+      "id": 5
+    }
+  ],
+  "contactuss": [
+    {
+      "id": 1,
+      "name": "Anil",
+      "address": "Bangalore",
+      "topic": "Location",
+      "subbody": "I want to visit the Kitchen Story"
+    },
+    {
+      "name": "Ajay",
+      "address": "Bangalore",
+      "topic": "Food",
+      "subbody": "The food was really tasty. Will surely recommend by friends about this place.",
+      "id": 2
+    },
+    {
+      "name": "Meena",
+      "address": "Bangalore",
+      "topic": "Food",
+      "subbody": "The food was server within few minutes of order and it was really good. ",
+      "id": 3
+    },
+    {
+      "name": "Nitya",
+      "address": "Bangalore",
+      "topic": "Food",
+      "subbody": "The taste is so good, reminds me of my mom.",
+      "id": 3
+    }
+  ]
+}
